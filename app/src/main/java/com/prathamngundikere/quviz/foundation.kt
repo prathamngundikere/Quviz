@@ -68,7 +68,7 @@ import com.prathamngundikere.quviz.databinding.ActivityFoundationBinding
 
 class foundation : AppCompatActivity() {
     private lateinit var binding: ActivityFoundationBinding
-
+// this is foundation mainscreen and contains three fragments
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityFoundationBinding.inflate(layoutInflater)
