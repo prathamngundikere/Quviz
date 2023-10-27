@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quviz</string>
+    <string name="text_name">Name</string>
+    <string name="btn_name">Log In</string>
+    <string name="examplesubject">Subject 1</string>
+    <string name="web_client_id">780324094715-sagal9d00g454r4t6769vr06m3pindlv.apps.googleusercontent.com</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="example_timer">00:00</string>
+</resources>

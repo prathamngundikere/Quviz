@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="profile_picture_initial_size">1</dimen>
+    <item name="profile_picture_size" type="dimen" format="float">1.0</item>
+    <item name="scroll_threshold" type="dimen" format="float">1.0</item>
+</resources>

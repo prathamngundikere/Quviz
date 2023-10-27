@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- White background -->
+    <item android:drawable="@color/white" />
+
+    <!-- Background image (bg) centered -->
+    <!--<item
+   android:drawable="@drawable/bg"
+   android:gravity="center">
+</item>-->
+
+<!-- Spacer to push owner_title to the bottom -->
+
+    <!-- Owner title image (owner_title) at the bottom -->
+    <!--<item
+        android:drawable="@drawable/owner_title"
+        android:gravity="bottom|center_horizontal" >
+    </item>-->
+</layer-list>

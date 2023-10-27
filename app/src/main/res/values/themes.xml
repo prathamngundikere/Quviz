@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Quviz" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/main_color</item>
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorTertiary">@color/darkorange</item>
+        <item name="android:navigationBarColor">@color/main_color</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowBackground">@drawable/bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/main_color</item>
+    </style>
+    <style name="Theme.Quviz" parent="Base.Theme.Quviz"/>
+    <style name="TopicScreen" parent="Base.Theme.Quviz">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/main_color</item>
+        <item name="android:statusBarColor">#66FFFFFF</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+    <style name="SubjectScreen" parent="Base.Theme.Quviz">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:statusBarColor">@color/main_color</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+    <style name="Foundation" parent="Base.Theme.Quviz">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/main_color</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:statusBarColor">@color/main_color</item>
+    </style>
+    <style name="QuizScreen" parent="Base.Theme.Quviz">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">@color/main_color</item>
+        <item name="android:statusBarColor">@color/main_color</item>
+    </style>
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@android:color/transparent</item>
+    </style>
+</resources>

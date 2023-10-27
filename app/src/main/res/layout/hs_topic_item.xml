@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <!-- ImageView to display the Topic Image -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="10dp"
+        app:cardElevation="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp">
+            <ImageView
+                android:id="@+id/topicImageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/football"
+                android:background="@drawable/image_rounded_corner_hs_title"
+                android:layout_gravity="center" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/topicTextView"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="11sp"
+                android:textStyle="normal"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:hint="dsgdfgfddfdfhhfghhdfdfhfdhdf fddffdhdhdhdhdhdhdhdddddd"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <!-- Topic Name TextView -->
+</LinearLayout>

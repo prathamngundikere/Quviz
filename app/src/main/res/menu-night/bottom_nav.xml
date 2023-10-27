@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Home"
+        android:id="@+id/home_btn"
+        android:icon="@drawable/selector_home_button"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Search"
+        android:id="@+id/search_btn"
+        android:icon="@drawable/selector_search_button"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Profile"
+        android:id="@+id/prfile_btn"
+        android:icon="@drawable/selector_profile_button"
+        app:showAsAction="ifRoom"/>
+</menu>
